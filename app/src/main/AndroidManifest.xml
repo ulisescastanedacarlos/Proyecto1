@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucc.itics.tesoem.edu.proyecto1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ByActivity"></activity>
+        <activity android:name=".HistoriaPotosinasActivity" />
+        <activity android:name=".PotosinasActivity" />
+        <activity android:name=".HistoriaSuizasActivity" />
+        <activity android:name=".SuizasActivity" />
+        <activity android:name=".RojasActivity" />
+        <activity android:name=".VerdesActivity" />
+        <activity android:name=".RecetasActivity" />
+        <activity android:name=".TiposActivity" />
+        <activity android:name=".QuesonActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
